@@ -24,14 +24,14 @@ global.userImages =
 
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  caption: process.env.CAPTION || "`©DARKEXE-V2`",
+  author: process.env.PACK_AUTHER || "DARKEXE-V2",
+  packname: process.env.PACK_NAME || "DARKEXE",
+  botname: process.env.BOT_NAME || "DARKEXE-V2",
+  ownername: process.env.OWNER_NAME || "Drkexe",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -51,7 +51,7 @@ global.email = "";
 global.location = "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "India/kerala";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
@@ -63,12 +63,12 @@ global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
-  (global.MsgsInLog = process.env.MSGS_IN_LOG || "true");
+  (global.MsgsInLog = process.env.MSGS_IN_LOG || "false");
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from = process.env.READ_STATUS_FROM || "null";

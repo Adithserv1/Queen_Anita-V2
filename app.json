@@ -27,26 +27,26 @@
       "value": "online"
     },
     "OWNER_NAME": {
-      "description": "Owner Name",
-      "value": "David Cyril",
+      "description": "Darkexe",
+      "value": "Darkexe",
       "required": true
     },
 
     "WELCOME": {
       "description": "Welcome Message",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 
     "GOODBYE": {
-      "description": "Goodbye Message",
+      "description": "",
       "value": "false",
       "required": false
     },
     "BOT_NAME": {
       "description": "Bot Name",
       "required": false,
-      "value": "QUEEN_ANITA-V2"
+      "value": "DARKEXE-V2"
     },
     "USER_IMAGES": {
       "description": "Image for bot",
@@ -56,7 +56,7 @@
     "TZ": {
       "description": "Don't change if you dont know your location.",
       "required": false,
-      "value": "Africa/Lagos"
+      "value": "Idia/kerala"
     },
     "SS_RESET": {
       "description": "If the bot doesn't work after delpoyment",
@@ -81,7 +81,7 @@
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
@@ -96,15 +96,15 @@
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
       "value": "false",
-      "required": false
+      "required": false,
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": ""
+      "value": "#"
     },
     "OWNER_NUMBER": {
       "description": "Owner number or sudo",
-      "value": "2349066528353,2347043759577"
+      "value": "917510569273"
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
@@ -127,7 +127,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "QUEEN_ANITA-V2",
+      "value": "DARKEXE-MD",
       "required": false
     },
     "PACK_AUTHER": {
